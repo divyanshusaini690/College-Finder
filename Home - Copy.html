@@ -1,0 +1,591 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+
+      table{
+        float: right;
+        position: relative;
+      }
+
+      td, th {
+        float: right;
+        border: 2px solid black;
+        padding: 20px;
+        padding: 0px;
+        margin: 20px;
+
+      }
+      .img-item{
+        width: 320px;
+        height: 250px;
+      }
+      .figcaption-font {
+        font-size: 20px; color: black;
+
+      }
+      .item-p{
+        float: left;
+      }
+      .checked{
+        color: orange;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <i class="bi bi-book-half" style="font-size: 25px; color: red;"></i>
+          <a class="navbar-brand" href="#">College Finder</a>
+          <span class="invisible">SpaceSpaceSpacespaceSpace Space SpaceSpace Space SpaceSpace Space Space SpaceSpaceSpace</span>
+
+          <i class="bi bi-house-fill" style="font-size: 30px; color: red;"></i>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Over Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">B.tech</a></li>
+                  <li><a class="dropdown-item" href="#">M.tech</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Other Course</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="F:\Divyanshu Saini\internship\Project 1\Sign-Up.html">Sign Up/Login</a>
+              </li>
+              <i class="bi bi-cart-fill" style="font-size: 25px; color: red;"></i>
+              
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <div style="height: 30px; width: 100%; background-color: #5F95E4;" >
+
+  </div>
+
+  <div>
+    <img src="F:\Divyanshu Saini\internship\Project 1\image\college1.jpg" class="img-fluid" alt="not available" >
+  </div>
+  <br>
+  
+  <div style="float: right;">
+    <h1 style="color: red;">Shorted</h1>
+    <!-- Split dropend button -->
+    <div class="btn-group dropend">
+      <button type="button" style=" background: white; color: red ; width: 150px;" class="btn btn-secondary" >
+        Popularity
+      </button>
+      <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropend</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#" style="color: red;" class="dropdown-item">Featured</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Popularity</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Fee: Low to High</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Fee: High to low</a></li>
+      </ul>
+    </div>
+  </div>
+  <h1 style="color: red;">Filter By</h1>
+  <br>
+  <br>
+  
+  <!-- Images items -->
+
+  <div>
+
+   <table cellspacing="40" cellpadding="20" style=" text-align: center; ">
+    <tr>
+
+    </tr>
+    <tr>
+      <td> <figure class="figure">
+        <img class="img-item" src="F:\Divyanshu Saini\internship\Project 1\image\college2.jfif" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figcaption-font" class="figure-caption">University of Delhi.</figcaption>
+        <p class="item-p">Avg CTC=5lac</p>
+        <br>
+        <p class="item-p">Rating</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <button class="btn btn-danger">Download Brochure</button>
+      </figure>
+    </td>
+    <td> <figure class="figure">
+      <img class="img-item" src="F:\Divyanshu Saini\internship\Project 1\image\college3.jpg" class="figure-img img-fluid rounded" alt="...">
+      <figcaption class="figcaption-font" class="figure-caption">Banaras Hindu University.</figcaption>
+      <p class="item-p">Avg CTC=6lac</p>
+      <br>
+      <p class="item-p">Rating</p>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <button class="btn btn-danger">Download Brochure</button>
+    </figure>
+  </td>
+  <td> <figure class="figure">
+    <img class="img-item" src="F:\Divyanshu Saini\internship\Project 1\image\college4.jpg" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figcaption-font"class="figure-caption">Gauttam Buddha University.</figcaption>
+    <p class="item-p">Avg CTC=4lac</p>
+    <br>
+    <p class="item-p">Rating</p>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <button class="btn btn-danger">Download Brochure</button>
+  </figure>
+</td>
+</tr>
+<tr>
+  <td> <figure class="figure">
+    <img class="img-item" src="F:\Divyanshu Saini\internship\Project 1\image\college2.jfif" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figcaption-font" class="figure-caption">IIT Bombay</figcaption>
+    <p class="item-p">Avg CTC=15lac</p>
+    <br>
+    <p class="item-p">Rating</p>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star "></span>
+    <button class="btn btn-danger">Download Brochure</button>
+  </figure>
+</td>
+<td> <figure class="figure">
+  <img class="img-item" src="F:\Divyanshu Saini\internship\Project 1\image\college3.jpg" class="figure-img img-fluid rounded" alt="...">
+  <figcaption class="figcaption-font" class="figure-caption">IISC</figcaption>
+  <p class="item-p">Avg CTC=13lac</p>
+  <br>
+  <p class="item-p">Rating</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <button class="btn btn-danger">Download Brochure</button>
+</figure>
+</td>
+<td> <figure class="figure">
+  <img class="img-item" src="F:\Divyanshu Saini\internship\Project 1\image\college4.jpg" class="figure-img img-fluid rounded" alt="...">
+  <figcaption class="figcaption-font"class="figure-caption">Aktu Lucknow.</figcaption>
+  <p class="item-p">Avg CTC=7lac</p>
+  <br>
+  <p class="item-p">Rating</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <button class="btn btn-danger">Download Brochure</button>
+</figure>
+
+</td>
+</tr>
+<tr style="border: none;">
+  <td style="border: 0px none;">
+    <button style="color: red;"><i class="bi bi-arrow-left-square-fill"></i></button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button><i style="color: red;" class="bi bi-arrow-right-square-fill"></i></button>
+
+  </td>
+</tr>
+</table>
+
+</div>   
+
+</div>
+<div style="height: 920px;">
+  <div >
+    <i class="bi bi-bank" style="font-size: 25px ; color: red;"></i>
+    <!-- Split dropend button -->
+    <div class="btn-group dropend">
+      <button type="button" style=" background: white; color: red ; width: 150px;" class="btn btn-secondary" >
+        State
+      </button>
+      <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropend</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#" style="color: red;" class="dropdown-item">Uttar Pradesh</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Delhi</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Uttarakhand</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div>
+    <i class="bi bi-building" style="font-size: 25px ; color: red;"></i>
+
+    <!-- Split dropend button -->
+    <div class="btn-group dropend">
+      <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+        City
+      </button>
+      <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropend</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#" style="color: red;" class="dropdown-item">Noida</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Delhi</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Lucknow</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Dehradun</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div>
+    <i class="bi bi-book-half" style="font-size: 25px; color: red;"></i>
+    <!-- Split dropend button -->
+    <div class="btn-group dropend">
+      <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+        Mode Of Study
+      </button>
+      <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropend</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#" style="color: red;" class="dropdown-item">Full time</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Attending</a></li>
+        <li><a href="#" style="color: red;" class="dropdown-item">Non-Attending</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div>
+   <i class="bi bi-app" style="font-size: 25px; color: red;"></i>
+   <!-- Split dropend button -->
+   <div class="btn-group dropend">
+    <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+      Ownership
+    </button>
+    <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropend</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#" style="color: red;" class="dropdown-item"></a></li>
+      <li><a href="#" style="color: red;" class="dropdown-item"></a></li>
+      <li><a href="#" style="color: red;" class="dropdown-item"></a></li>
+    </ul>
+  </div>
+</div>
+<br>
+<div>
+  <i class="bi bi-book-fill" style="font-size: 25px ; color: red;"></i>
+  <!-- Split dropend button -->
+  <div class="btn-group dropend">
+    <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+     Degree
+   </button>
+   <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropend</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#" style="color: red;" class="dropdown-item">B.tech</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">M.tech</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">Phd</a></li>
+  </ul>
+</div>
+</div>
+<br>
+<div>
+  <i class="bi bi-cash-coin" style="font-size: 25px ; color: red;"></i>
+  <!-- Split dropend button -->
+  <div class="btn-group dropend">
+    <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+     Fees
+   </button>
+   <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropend</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#" style="color: red;" class="dropdown-item">Under 5 lac</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">More than 5 lac</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">more than 7 lac</a></li>
+  </ul>
+</div>
+</div>
+<br>
+<div>
+  <i class="bi bi-journal" style="font-size: 25px ; color: red;"></i>
+  <!-- Split dropend button -->
+  <div class="btn-group dropend">
+    <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+     Branch
+   </button>
+   <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropend</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#" style="color: red;" class="dropdown-item">Computer Science</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">Electronics</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">Electrical</a></li>
+  </ul>
+</div>
+</div>
+<br>
+<div>
+  <i class="bi bi-pencil-square" style="font-size: 25px ; color: red;"></i>
+  <!-- Split dropend button -->
+  <div class="btn-group dropend">
+    <button type="button" style=" background: white; color: red; width: 150px;" class="btn btn-secondary" >
+     Exam
+   </button>
+   <button type="button" style="color: red; background: white;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropend</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#" style="color: red;" class="dropdown-item">Jee Main</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">Jee Advance</a></li>
+    <li><a href="#" style="color: red;" class="dropdown-item">Upsee</a></li>
+  </ul>
+</div>
+</div>
+<br>
+
+<div class="input-group mb-3" style="width: 205px;">
+  <div class="input-group-text">
+    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+  </div>
+  <input type="text" class="form-control" value="Jee Main" aria-label="Text input with checkbox">
+</div>
+
+
+<div class="input-group mb-3" style="width: 205px;">
+  <div class="input-group-text">
+    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+  </div>
+  <input type="text" class="form-control" value="Jee Advance" aria-label="Text input with checkbox">
+</div>
+
+<div class="input-group mb-3" style="width: 205px;">
+  <div class="input-group-text">
+    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+  </div>
+  <input type="text" class="form-control" value="Upsee" aria-label="Text input with checkbox">
+</div>
+
+</div>
+</div>
+
+ 
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+<div >
+
+  <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-facebook"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-twitter"></i></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-google"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-linkedin"></i></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Best College Search Website.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="F:\Divyanshu Saini\internship\Project 1\Sign-Up.html" class="text-white">Sign Up</a>
+            </li>
+            <li>
+              <a href="F:\Divyanshu Saini\internship\Project 1\Home - Copy.html" class="text-white">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="F:\Divyanshu Saini\internship\Project 1\Log-in.html" class="text-white">Log In</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  
+</footer>
+<!-- Footer -->
+  
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
